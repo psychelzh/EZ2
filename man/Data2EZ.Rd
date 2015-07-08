@@ -4,17 +4,18 @@
 \title{ Convert observed sample moments to diffusion parameter values }
 \description{
 %  ~~ A concise (1-5 lines) description of what the function does. ~~
-  Converts proportion correct (Pc), response time variance (VRT), and response time mean (MRT), to EZ diffusion model parameters.
+  Converts proportion correct (Pc), response time variance (VRT), and response 
+  time mean (MRT), to EZ diffusion model parameters.
 }
 \usage{
 Data2EZ(Pc, VRT, MRT, s = 0.1)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{Pc}{ Proportion of correct responses ~~\code{Pc} here~~ }
-  \item{VRT}{ Variance of the response times in seconds ~~Describe \code{VRT} here~~ }
-  \item{MRT}{ Mean of the response times in seconds ~~Describe \code{MRT} here~~ }
-  \item{s}{ Scale parameter for the parameters (Ratcliff's convention is \code{s = 0.1}, the default) ~~Describe \code{s} here~~ }
+  \item{Pc}{ Proportion of correct responses.}
+  \item{VRT}{ Variance of the response times in seconds.}
+  \item{MRT}{ Mean of the response times in seconds.}
+  \item{s}{ Scale parameter for the parameters (Ratcliff's convention is \code{s = 0.1}, the default).}
 }
 \details{
   Use of MRT is optional; if MRT is absent \code{Ter} will not be computed.
