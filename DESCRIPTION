@@ -6,3 +6,5 @@ Author: Raoul Grasman
 Maintainer: Raoul Grasman <rgrasman@uva.nl>
 Description: Fitting simplified versions of Ratcliff's (1978) diffusion model (the EZ and EZ2 models) for human and monkey response times and accuracy to the means and variances of the observables. 
 License: GPL-2
+URL: https://github.com/psychelzh/EZ2
+BugReports: https://github.com/psychelzh/EZ2/issues
